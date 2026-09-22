@@ -3,7 +3,7 @@
   "id": "renoir-client",
   "game_id": "valheim",
   "name": "Renoir Client",
-  "version": "2026.09.22",
+  "version": "2026.09.22.1",
   "owned_dirs": [
     "BepInEx"
   ],
@@ -73,9 +73,30 @@
         "zip_root": "plugins/"
       },
       {
-        "url": "files/renoir-client-common-6cc35ecc920e.zip",
-        "sha256": "6cc35ecc920e85e73f97a517a8c1fd025723639916e1d313bc398cc5361266c4",
-        "size": 22756,
+        "url": "https://thunderstore.io/package/download/UnderHeiz/CraftFromContainers/4.0.62/",
+        "sha256": "477146ad0016939753a8a5bee891fd85cd9dbd76c354f319e2c09303ea446b4b",
+        "size": 86598,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/UnderHeiz-CraftFromContainers"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/Goldenrevolver/Quick_Stack_Store_Sort_Trash_Restock/1.4.15/",
+        "sha256": "f73d07cdd94261f9bbb9facc7a5d990d8d47805362a9a2232125df53ac45c707",
+        "size": 288242,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/Goldenrevolver-Quick_Stack_Store_Sort_Trash_Restock"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/MSchmoecker/MultiUserChest/0.6.2/",
+        "sha256": "822233992ec47d43b134265e57b42b89682482fb884005c3b23aba98c0352949",
+        "size": 83062,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/MSchmoecker-MultiUserChest"
+      },
+      {
+        "url": "files/renoir-client-common-5d9c62ccd574.zip",
+        "sha256": "5d9c62ccd5747d3366f2f5b081fc33d89b5115770cf47cb7351547c72fe3b441",
+        "size": 30923,
         "kind": "zip",
         "dest": ""
       }
