@@ -1,0 +1,13 @@
+{
+  "min_app_version": "0.1.0",
+  "packs": [
+    {
+      "description": "Client pack for the Renoir server: Jotunn, ZenUI, ZenHoverItem, PlantEasily, MinimalStatusEffects, BetterNetworking and ConfigurationManager.",
+      "game_id": "valheim",
+      "id": "renoir-client",
+      "manifest": "packs/renoir-client.json",
+      "name": "Renoir Client"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,3 @@
+# Store every file byte for byte: manifests and packed zips are identified by
+# their SHA-256, so line-ending conversion would change hashes.
+* -text

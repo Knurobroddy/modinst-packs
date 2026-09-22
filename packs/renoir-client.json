@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "renoir-client",
+  "game_id": "valheim",
+  "name": "Renoir Client",
+  "version": "2026.09.22",
+  "owned_dirs": [
+    "BepInEx"
+  ],
+  "files": {
+    "common": [
+      {
+        "url": "https://thunderstore.io/package/download/ValheimModding/Jotunn/2.30.2/",
+        "sha256": "8aae92da2be0eb6820cd4cf57e2f6c1d6ad0d738d4915966e7c3d7a94e9a9b0f",
+        "size": 835193,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/ValheimModding-Jotunn",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/ZenDragon/Zen_ModLib/1.14.9/",
+        "sha256": "845d0e35b64eef9c8e5ec1ccd5e3e71284b41c30495374bddab6b79e489c316e",
+        "size": 137997,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/ZenDragon-Zen_ModLib",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/ZenDragon/ZenUI/1.8.10/",
+        "sha256": "45546acff60dbef71f7e1970e153f42efacf4c22d61215bc245112e17555a18a",
+        "size": 99452,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/ZenDragon-ZenUI",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/ZenDragon/ZenHoverItem/1.3.0/",
+        "sha256": "41c889503bfab0b98355572f1fbd222708247a98b6f17d64938dff2450556388",
+        "size": 47572,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/ZenDragon-ZenHoverItem",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/Advize/PlantEasily/2.2.1/",
+        "sha256": "f33df183f48080cb40c547a98aad2c47ccd03fcb9071b015c9d9e2df11cc3f50",
+        "size": 189929,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/Advize-PlantEasily"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/RandyKnapp/MinimalStatusEffects/1.0.7/",
+        "sha256": "a0eb10e0b417daa55df82238f5e67ca418e79eb4efb0a750dbd87f3b95a77807",
+        "size": 226408,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/RandyKnapp-MinimalStatusEffects",
+        "zip_root": "MinimalStatusEffects/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/cjayride/ConfigurationManager/0.6.2/",
+        "sha256": "e89ccd31eedc9e33864d6e2837dedfaf9833f17699349241c18fffffba2b3a11",
+        "size": 92158,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/cjayride-ConfigurationManager",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/SimplifyDave/BetterNetworking_Valheim/1.2.0/",
+        "sha256": "de502d2e08263d2f7b874de76dd47d56ebbd8d8cbbe4bc8321b32472ae9f7795",
+        "size": 404425,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/SimplifyDave-BetterNetworking_Valheim",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "files/renoir-client-common-6cc35ecc920e.zip",
+        "sha256": "6cc35ecc920e85e73f97a517a8c1fd025723639916e1d313bc398cc5361266c4",
+        "size": 22756,
+        "kind": "zip",
+        "dest": ""
+      }
+    ],
+    "windows": [
+      {
+        "url": "https://thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.2350/",
+        "sha256": "37a91c000b4e88f2ed7a4bd7d812239852d2e36cbf0ff0a9f5faacfba46b105f",
+        "size": 706129,
+        "kind": "zip",
+        "dest": "",
+        "zip_root": "BepInExPack_Valheim/"
+      }
+    ]
+  },
+  "hooks": [
+    {
+      "type": "proton_dll_override",
+      "builds": [
+        "linux_proton"
+      ],
+      "dll": "winhttp",
+      "mode": "native,builtin"
+    }
+  ],
+  "loader": null
+}
