@@ -3,7 +3,7 @@
   "id": "renoir-client",
   "game_id": "valheim",
   "name": "Renoir Client",
-  "version": "2026.09.22.1",
+  "version": "2026.09.29.1",
   "owned_dirs": [
     "BepInEx"
   ],
@@ -92,6 +92,22 @@
         "size": 83062,
         "kind": "zip",
         "dest": "BepInEx/plugins/MSchmoecker-MultiUserChest"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/MidnightMods/AchievementEnabler/0.4.1/",
+        "sha256": "1561b65017297b2611805147ce272a900ef4f6bd09ec80b29565ea44e0061c1f",
+        "size": 33275,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/MidnightMods-AchievementEnabler",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/Digitalroot/Digitalroots_Slope_Combat_Assistance/2.0.30/",
+        "sha256": "677937a6d6d502f13472815e3d27ff235ce7d46733f180041a3364090bda02af",
+        "size": 60469,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/Digitalroot-Digitalroots_Slope_Combat_Assistance",
+        "zip_root": "plugins/"
       },
       {
         "url": "files/renoir-client-common-5d9c62ccd574.zip",
