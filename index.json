@@ -7,6 +7,13 @@
       "id": "renoir-client",
       "manifest": "packs/renoir-client.json",
       "name": "Renoir Client"
+    },
+    {
+      "description": "Server pack for Renoir, same mods and settings as Renoir Client. Linux: start the server from its folder with \"bash start_server_bepinex.sh\" (set name, world and password in that script).",
+      "game_id": "valheim-server",
+      "id": "renoir-server",
+      "manifest": "packs/renoir-server.json",
+      "name": "Renoir Server"
     }
   ],
   "schema_version": 1

@@ -24,6 +24,26 @@
           "files": "windows"
         }
       ]
+    },
+    {
+      "id": "valheim-server",
+      "name": "Valheim Dedicated Server",
+      "kind": "server",
+      "strategy": "user_folder",
+      "builds": [
+        {
+          "id": "windows",
+          "os": "windows",
+          "anchor": "valheim_server.exe",
+          "files": "windows"
+        },
+        {
+          "id": "linux",
+          "os": "linux",
+          "anchor": "valheim_server.x86_64",
+          "files": "linux"
+        }
+      ]
     }
   ]
 }
