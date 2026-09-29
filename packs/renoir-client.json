@@ -3,7 +3,7 @@
   "id": "renoir-client",
   "game_id": "valheim",
   "name": "Renoir Client",
-  "version": "2026.09.29.1",
+  "version": "2026.09.29.2",
   "owned_dirs": [
     "BepInEx"
   ],
@@ -110,9 +110,9 @@
         "zip_root": "plugins/"
       },
       {
-        "url": "files/renoir-client-common-5d9c62ccd574.zip",
-        "sha256": "5d9c62ccd5747d3366f2f5b081fc33d89b5115770cf47cb7351547c72fe3b441",
-        "size": 30923,
+        "url": "files/renoir-client-common-de3d8c752dcd.zip",
+        "sha256": "de3d8c752dcd911020ab770288239e5cb26a586906ace848c87577c1f983d35a",
+        "size": 30926,
         "kind": "zip",
         "dest": ""
       }
