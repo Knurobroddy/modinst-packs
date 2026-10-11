@@ -3,7 +3,7 @@
   "id": "renoir-client",
   "game_id": "valheim",
   "name": "Renoir Client",
-  "version": "2026.09.29.2",
+  "version": "2026.10.11",
   "owned_dirs": [
     "BepInEx"
   ],
@@ -18,17 +18,17 @@
         "zip_root": "plugins/"
       },
       {
-        "url": "https://thunderstore.io/package/download/ZenDragon/Zen_ModLib/1.14.9/",
-        "sha256": "845d0e35b64eef9c8e5ec1ccd5e3e71284b41c30495374bddab6b79e489c316e",
-        "size": 137997,
+        "url": "https://thunderstore.io/package/download/ZenDragon/Zen_ModLib/1.14.21/",
+        "sha256": "d6f412c42ed18939e832a60355963a403bd38a570db8c868ef7e137268c3a217",
+        "size": 159908,
         "kind": "zip",
         "dest": "BepInEx/plugins/ZenDragon-Zen_ModLib",
         "zip_root": "plugins/"
       },
       {
-        "url": "https://thunderstore.io/package/download/ZenDragon/ZenUI/1.8.10/",
-        "sha256": "45546acff60dbef71f7e1970e153f42efacf4c22d61215bc245112e17555a18a",
-        "size": 99452,
+        "url": "https://thunderstore.io/package/download/ZenDragon/ZenUI/1.8.12/",
+        "sha256": "ddde6f00602eebea7a5a979c2353edf100119633f866defaa1685312105be3e6",
+        "size": 99874,
         "kind": "zip",
         "dest": "BepInEx/plugins/ZenDragon-ZenUI",
         "zip_root": "plugins/"
@@ -42,19 +42,19 @@
         "zip_root": "plugins/"
       },
       {
-        "url": "https://thunderstore.io/package/download/Advize/PlantEasily/2.2.1/",
-        "sha256": "f33df183f48080cb40c547a98aad2c47ccd03fcb9071b015c9d9e2df11cc3f50",
-        "size": 189929,
+        "url": "https://thunderstore.io/package/download/Advize/PlantEasily/2.3.0/",
+        "sha256": "1afe2daffc249ff4dc10dcf659f158d8546070822cb3229be780eee9edc287fe",
+        "size": 193662,
         "kind": "zip",
         "dest": "BepInEx/plugins/Advize-PlantEasily"
       },
       {
-        "url": "https://thunderstore.io/package/download/RandyKnapp/MinimalStatusEffects/1.0.7/",
-        "sha256": "a0eb10e0b417daa55df82238f5e67ca418e79eb4efb0a750dbd87f3b95a77807",
-        "size": 226408,
+        "url": "https://thunderstore.io/package/download/RandyKnapp/MinimalStatusEffects/1.0.8/",
+        "sha256": "a2590d3aab16b7d02c3aae84b612fb332584a3596af250bc159d239045eb3fd0",
+        "size": 266088,
         "kind": "zip",
         "dest": "BepInEx/plugins/RandyKnapp-MinimalStatusEffects",
-        "zip_root": "MinimalStatusEffects/"
+        "zip_root": "Plugins/"
       },
       {
         "url": "https://thunderstore.io/package/download/cjayride/ConfigurationManager/0.6.2/",
@@ -65,17 +65,9 @@
         "zip_root": "plugins/"
       },
       {
-        "url": "https://thunderstore.io/package/download/SimplifyDave/BetterNetworking_Valheim/1.2.0/",
-        "sha256": "de502d2e08263d2f7b874de76dd47d56ebbd8d8cbbe4bc8321b32472ae9f7795",
-        "size": 404425,
-        "kind": "zip",
-        "dest": "BepInEx/plugins/SimplifyDave-BetterNetworking_Valheim",
-        "zip_root": "plugins/"
-      },
-      {
-        "url": "https://thunderstore.io/package/download/UnderHeiz/CraftFromContainers/4.0.62/",
-        "sha256": "477146ad0016939753a8a5bee891fd85cd9dbd76c354f319e2c09303ea446b4b",
-        "size": 86598,
+        "url": "https://thunderstore.io/package/download/UnderHeiz/CraftFromContainers/4.0.70/",
+        "sha256": "9fd7ccb7424fd988c857070396c6ceb63a34f2bb02642f0e3932dd0f7b927422",
+        "size": 86619,
         "kind": "zip",
         "dest": "BepInEx/plugins/UnderHeiz-CraftFromContainers"
       },
@@ -94,9 +86,9 @@
         "dest": "BepInEx/plugins/MSchmoecker-MultiUserChest"
       },
       {
-        "url": "https://thunderstore.io/package/download/MidnightMods/AchievementEnabler/0.4.1/",
-        "sha256": "1561b65017297b2611805147ce272a900ef4f6bd09ec80b29565ea44e0061c1f",
-        "size": 33275,
+        "url": "https://thunderstore.io/package/download/MidnightMods/AchievementEnabler/0.5.0/",
+        "sha256": "373a709f73bab786d069c75d768b6f53547f4952aca99e83814afe9ed0349ffc",
+        "size": 36359,
         "kind": "zip",
         "dest": "BepInEx/plugins/MidnightMods-AchievementEnabler",
         "zip_root": "plugins/"
@@ -110,18 +102,49 @@
         "zip_root": "plugins/"
       },
       {
-        "url": "files/renoir-client-common-de3d8c752dcd.zip",
-        "sha256": "de3d8c752dcd911020ab770288239e5cb26a586906ace848c87577c1f983d35a",
-        "size": 30926,
+        "url": "https://thunderstore.io/package/download/MidnightMods/NetworkPerformanceSystem/1.16.0/",
+        "sha256": "2927cdca733483510b19bea85a82045c31cd11d67abf291b158f0fc16780e243",
+        "size": 202885,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/MidnightMods-NetworkPerformanceSystem",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/MidnightMods/ValheimCommunityPatch/0.35.1/",
+        "sha256": "08041b6ebfa4e82ccd90854fdefe705e9b73b5302c9d06e9166723199138d3ce",
+        "size": 174460,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/MidnightMods-ValheimCommunityPatch",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/RandyKnapp/EquipmentAndQuickSlots/3.1.3/",
+        "sha256": "bb5b51fb63842864b89a0408535adaa8290bde5605579ed69c17e0cdcd9721dd",
+        "size": 384111,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/RandyKnapp-EquipmentAndQuickSlots",
+        "zip_root": "plugins/"
+      },
+      {
+        "url": "https://thunderstore.io/package/download/OdinPlus/QuickTeleport/2.0.5/",
+        "sha256": "2f79c2f5c99c9dbf003ff224b97df36d830ee5044f55b8dafbd04a7263ecec14",
+        "size": 223889,
+        "kind": "zip",
+        "dest": "BepInEx/plugins/OdinPlus-QuickTeleport"
+      },
+      {
+        "url": "files/renoir-client-common-1dba1ef837c8.zip",
+        "sha256": "1dba1ef837c85f9343bd61f284b7ab52b1026c077ae8a54ed9be2e0385fc2865",
+        "size": 56489,
         "kind": "zip",
         "dest": ""
       }
     ],
     "windows": [
       {
-        "url": "https://thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.2350/",
-        "sha256": "37a91c000b4e88f2ed7a4bd7d812239852d2e36cbf0ff0a9f5faacfba46b105f",
-        "size": 706129,
+        "url": "https://thunderstore.io/package/download/denikson/BepInExPack_Valheim/5.4.2351/",
+        "sha256": "bce631497976a93977ceb08e166712e6c31d15244956f89f17df092a9b62e29f",
+        "size": 702924,
         "kind": "zip",
         "dest": "",
         "zip_root": "BepInExPack_Valheim/"
